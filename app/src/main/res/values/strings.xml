@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DAM-PMDM-MiniCalculadora</string>
+    <string name="btn_selec1">1</string>
+    <string name="btn_selec2">2</string>
+    <string name="btn_selec3">3</string>
+    <string name="btn_selec4">4</string>
+    <string name="btn_selec5">5</string>
+    <string name="btn_selec6">6</string>
+    <string name="btn_selec7">7</string>
+    <string name="btn_selec8">8</string>
+    <string name="btn_selec9">9</string>
+    <string name="btn_op1">+</string>
+    <string name="btn_op2">-</string>
+    <string name="btn_op3">x</string>
+    <string name="btn_op4">/</string>
+    <string name="btn_op5">+-</string>
+    <string name="btn_op6">root</string>
+    <string name="btn_op7">inv</string>
+    <string name="btn_selec10">0</string>
+    <string name="btn_selec11">,</string>
+    <string name="btn_resultado">=</string>
+    <string name="btn_clear">AC</string>
+
+</resources>

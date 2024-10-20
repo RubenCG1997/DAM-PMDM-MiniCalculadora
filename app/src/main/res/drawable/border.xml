@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Color de fondo (puedes eliminar esta línea si no deseas un fondo) -->
+    <solid android:color="@color/lbl_numeros_back" />
+
+    <!-- Define el borde -->
+    <stroke
+        android:width="2dp"
+        android:color="#000000" />
+</shape>

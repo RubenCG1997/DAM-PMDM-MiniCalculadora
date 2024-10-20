@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lbl_numeros_back">#FFFF8D</color>
+    <color name="lbl_numeros">#B388FF</color>
+    <color name="btn_numeros">#8C9EFF</color>
+    <color name="btn_operaciones">#33691E</color>
+    <color name="btn_operaciones2">#0D47A1</color>
+    <color name="btn_clear">#B71C1C</color>
+</resources>
