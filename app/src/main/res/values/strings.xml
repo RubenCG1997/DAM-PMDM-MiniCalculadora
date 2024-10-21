@@ -17,7 +17,7 @@
     <string name="btn_op6">root</string>
     <string name="btn_op7">inv</string>
     <string name="btn_selec10">0</string>
-    <string name="btn_selec11">,</string>
+    <string name="btn_selec11">.</string>
     <string name="btn_resultado">=</string>
     <string name="btn_clear">AC</string>
 
