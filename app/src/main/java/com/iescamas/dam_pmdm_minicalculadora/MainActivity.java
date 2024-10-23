@@ -6,6 +6,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         findViewById(R.id.bnt_selec1).setOnClickListener(this::mostrarNumero);
         findViewById(R.id.btn_selec2).setOnClickListener(this::mostrarNumero);
         findViewById(R.id.btn_selec3).setOnClickListener(this::mostrarNumero);
@@ -95,10 +95,10 @@ public class MainActivity extends AppCompatActivity {
         }
         ((TextView)findViewById(R.id.lbl_numeros)).setText(str_numero);
     }
-    private void resultado(String operacion){
+    private void resultado(String operando){
         str_numero = ((TextView)findViewById(R.id.lbl_numeros)).getText().toString();
         double resultado = 0;
-        switch (operacion){
+        switch (operando){
             case "+": resultado = Double.parseDouble(str_numeroAnterior)+ Double.parseDouble(str_numero);break;
             case "-": resultado = Double.parseDouble(str_numeroAnterior)- Double.parseDouble(str_numero);break;
             case "x": resultado = Double.parseDouble(str_numeroAnterior)* Double.parseDouble(str_numero);break;
@@ -122,7 +122,10 @@ public class MainActivity extends AppCompatActivity {
     }
     private void clean(){
         str_numero = (String) getText(R.string.btn_selec10);
+        str_numeroAnterior = (String) getText(R.string.btn_selec10);
+        operacion="";
         ((TextView)findViewById(R.id.lbl_numeros)).setText(getText(R.string.btn_selec10));
+
     }
 
 }
